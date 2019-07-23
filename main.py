@@ -43,7 +43,7 @@ while True:
         break
     elif command == "help":
         print("Commands : Syntax")
-        print("predict -[options] : -t use training data.")
+        print("predict -[options] : -t use training data.  -n predicts a new data using the test.csv file, note: edit the test.csv file if you want to predict new data.")
         print("exit : exits the program.")
         continue
     elif command == "predict":
